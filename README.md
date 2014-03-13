@@ -1,0 +1,4 @@
+manifest
+========
+
+test manifest
