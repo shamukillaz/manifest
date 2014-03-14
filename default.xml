@@ -122,6 +122,7 @@
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="pdk,darwin,arm" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="pdk,darwin,mips" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" groups="pdk,darwin,mips" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="pdk,darwin,x86" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
@@ -155,6 +156,7 @@
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="chaos" revision="kitkat" />
 
   <!-- CM -->
+  <project path="abi/cpp" name="android_abi_cpp" groups="pdk" remote="cm" />
   <project path="art" name="android_art" remote="cm" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" />
@@ -278,6 +280,7 @@
   <project path="external/libxml2" name="android_external_libxml2" remote="cm" />
   <project path="external/libxslt" name="android_external_libxslt" remote="cm" />
   <project path="external/libyuv" name="android_external_libyuv" groups="libyuv" remote="cm" />
+  <project path="external/linux-tools-perf" name="android_external_linux-tools-perf" remote="dg" revision="orca" />
   <project path="external/littlemock" name="android_external_littlemock" remote="cm" />
   <project path="external/llvm" name="android_external_llvm" groups="pdk" remote="cm" />
   <project path="external/lsof" name="android_external_lsof" remote="cm" />
@@ -291,6 +294,7 @@
   <project path="external/nano" name="android_external_nano" remote="cm" />
   <project path="external/naver-fonts" name="android_external_naver-fonts" remote="cm" />
   <project path="external/netcat" name="android_external_netcat" remote="cm" />
+  <project path="external/netperf" name="android_external_netperf" remote="cm" />
   <project path="external/neven" name="android_external_neven" remote="cm" />
   <project path="external/nist-sip" name="android_external_nist-sip" remote="cm" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm" />
@@ -332,6 +336,7 @@
   <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" remote="cm" />
   <project path="external/tinyxml" name="android_external_tinyxml" groups="pdk" remote="cm" />
   <project path="external/tinyxml2" name="android_external_tinyxml2" groups="pdk" remote="cm" />
+  <project path="external/tremolo" name="android_external_tremolo" groups="pdk" remote="dg" revision="orca" />
   <project path="external/v8" name="android_external_v8" remote="cm" />
   <project path="external/valgrind" name="android_external_valgrind" groups="pdk" remote="cm" />
   <project path="external/vim" name="android_external_vim" remote="cm" />
@@ -478,6 +483,7 @@
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="dg" revision="pac-4.4" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="dg" revision="pac-4.4" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="dg" revision="pac-4.4" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="slim" revision="kk4.4" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="dg" revision="pac-4.4"/>
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="dg" revision="pac-4.4" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="dg" revision="pac-4.4" />
