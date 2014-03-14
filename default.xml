@@ -292,7 +292,6 @@
   <project path="external/nano" name="android_external_nano" remote="cm" />
   <project path="external/naver-fonts" name="android_external_naver-fonts" remote="cm" />
   <project path="external/netcat" name="android_external_netcat" remote="cm" />
-  <project path="external/netperf" name="android_external_netperf" remote="cm" />
   <project path="external/neven" name="android_external_neven" remote="cm" />
   <project path="external/nist-sip" name="android_external_nist-sip" remote="cm" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm" />
