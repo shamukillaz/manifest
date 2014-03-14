@@ -280,7 +280,7 @@
   <project path="external/libxml2" name="android_external_libxml2" remote="cm" />
   <project path="external/libxslt" name="android_external_libxslt" remote="cm" />
   <project path="external/libyuv" name="android_external_libyuv" groups="libyuv" remote="cm" />
-  <project path="external/linux-tools-perf" name="android_external_linux-tools-perf" remote="dg" revision"cm-11.0" />
+  <project path="external/linux-tools-perf" name="android_external_linux-tools-perf" remote="dg" revision="cm-11.0" />
   <project path="external/littlemock" name="android_external_littlemock" remote="cm" />
   <project path="external/llvm" name="android_external_llvm" groups="pdk" remote="cm" />
   <project path="external/lsof" name="android_external_lsof" remote="cm" />
