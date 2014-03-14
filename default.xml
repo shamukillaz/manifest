@@ -336,7 +336,7 @@
   <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" remote="cm" />
   <project path="external/tinyxml" name="android_external_tinyxml" groups="pdk" remote="cm" />
   <project path="external/tinyxml2" name="android_external_tinyxml2" groups="pdk" remote="cm" />
-  <project path="external/tremolo" name="android_external_tremolo" groups="pdk" remote="cm" />
+  <project path="external/tremolo" name="android_external_tremolo" groups="pdk" remote="dg" revision="cm-11.0" />
   <project path="external/v8" name="android_external_v8" remote="cm" />
   <project path="external/valgrind" name="android_external_valgrind" groups="pdk" remote="cm" />
   <project path="external/vim" name="android_external_vim" remote="cm" />
