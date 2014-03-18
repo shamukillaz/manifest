@@ -8,6 +8,9 @@
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
+           
+  <remote  name="dg"
+           fetch="https://github.com/shamukillaz" />           
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -102,7 +105,7 @@
   <project path="external/dexmaker" name="CyanogenMod/android_external_dexmaker" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" groups="pdk" />
-  <project path="external/doclava" name="CyanogenMod/android_external_doclava" />
+  <project path="external/doclava" name="android_external_doclava" remote="dg" revision="cm-11.0" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" />
