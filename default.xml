@@ -355,8 +355,6 @@
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
-  <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
-  <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="dg" revision="cm-11" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="dg" revision="cm-11" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
@@ -378,6 +376,7 @@
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="du" revision="du44" />
+  <project path="packages/apps/ORCAWallpapers" name="android_packages_apps_ORCAWallpapers" remote="dg" revision="orca" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dg" revision="orca" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="dg" revision="cm-11" />
