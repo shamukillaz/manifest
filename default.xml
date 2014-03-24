@@ -11,12 +11,12 @@
            
   <remote  name="dg"
            fetch="https://github.com/shamukillaz" />
-	   
+
   <remote  name="du"
            fetch="https://github.com/DirtyUnicorns-KitKat" />
 
   <remote  name="slim"
-           fetch="https://github.com/SlimRoms" />	              
+           fetch="https://github.com/SlimRoms" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -289,9 +289,10 @@
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
-  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="dg" revision"cm-11" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="dg" revision="cm-11" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
+  <project path="frameworks/opt/cards" name="frameworks_opt_cards-1" remote="dg" revision="kk4.4" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="CyanogenMod/android_frameworks_opt_datetimepicker" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
@@ -349,7 +350,7 @@
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="dg" revision="cm-11" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="dg" revision="cm-11" />
-  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="dg" revision="cm-11" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="dg" revision="orca" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="slim" revision="kk4.4" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
