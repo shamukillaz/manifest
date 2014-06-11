@@ -61,7 +61,6 @@
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="cr" revision="cm-11.0" />
   <project path="device/samsung/jflte" name="android_device_samsung_jflte" remote="cr" revision="cm-11.0" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="cr" revision="cm-11.0" />
-  <project path="device/sony/honami" name="android_device_sony_honami" remote="cr" revision="cm-11.0" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
