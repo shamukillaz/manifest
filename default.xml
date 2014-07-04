@@ -304,7 +304,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="dg" revision="orca4.4" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="dg" revision="orca5" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -504,6 +504,6 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
-  <project path="vendor/cm" name="android_vendor_cm" remote="dg" revision="orca4secure" />
+  <project path="vendor/cm" name="android_vendor_cm" remote="dg" revision="orca5" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
 </manifest>
