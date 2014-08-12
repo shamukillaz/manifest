@@ -73,6 +73,8 @@
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" />
   <project path="external/ant-glob" name="CyanogenMod/android_external_ant-glob" />
+  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" />
+  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" />
   <project path="external/antlr" name="CyanogenMod/android_external_antlr" />
   <project path="external/apache-harmony" name="CyanogenMod/android_external_apache-harmony" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
@@ -435,7 +437,7 @@
   <project path="packages/screensavers/Basic" name="CyanogenMod/android_packages_screensavers_Basic" />
   <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" />
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="cr" revision="cm-11.0" />
+  <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="CyanogenMod/android_packages_wallpapers_HoloSpiral" />
