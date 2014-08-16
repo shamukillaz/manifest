@@ -9,6 +9,21 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
+  <remote name="dg"
+  fetch="https://github.com/shamukillaz" />
+
+  <remote name="du"
+  fetch="https://github.com/DirtyUnicorns-KitKat" />
+  
+  <remote name="slim"
+  fetch="https://github.com/SlimRoms" />
+  
+  <remote name="omni"
+  fetch="https://github.com/omnirom" />
+  
+  <remote name="cr"
+  fetch="https://github.com/cristianomatos" />	
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -49,7 +64,7 @@
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
   <project name="CyanogenMod/android_device_samsung_maguro" path="device/samsung/maguro" remote="github" revision="cm-11.0" />
-  <project name="cristianomatos/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="cm-11.0" />
+  <project name="android_device_lge_hammerhead" path="device/lge/hammerhead" remote="cr" revision="cm-11.0" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" />
@@ -295,13 +310,13 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project name="cristianomatos/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-11.0" />
+  <project name="android_frameworks_base" path="frameworks/base" remote="cr" revision="cm-11.0" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
-  <project name="shamukillaz/android_frameworks_ml" path="frameworks/ml" remote="github" revision="cm-11.0" /> 
+  <project name="android_frameworks_ml" path="frameworks/ml" remote="dg" revision="cm-11.0" /> 
   <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
@@ -319,14 +334,14 @@
   <project path="frameworks/opt/telephony-msim" name="CyanogenMod/android_frameworks_opt_telephony-msim" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="shamukillaz/android_frameworks_opt_cards" name="frameworks_opt_cards" remote="github" revision="slim-recent" />
+  <project path="android_frameworks_opt_cards" name="frameworks_opt_cards" remote="dg" revision="slim-recent" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" />
   <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" />
   <project path="frameworks/volley" name="CyanogenMod/android_frameworks_volley" />
   <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" />
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
-  <project name="cristianomatos/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="cm-11.0" />
+  <project name="android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="cr" revision="cm-11.0" />
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
@@ -368,7 +383,7 @@
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
-  <project name="shamukillaz/CMAccount" path="packages/apps/CMAccount" remote="github" revision="orca5" />
+  <project name="CMAccount" path="packages/apps/CMAccount" remote="dg" revision="orca5" />
   <project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
   <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" />
@@ -377,23 +392,23 @@
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
-  <project name="cristianomatos/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" revision="cm-11.0" />
+  <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="cr" revision="cm-11.0" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
-  <project name="cristianomatos/android_packages_apps_InCallUI" path="packages/apps/InCallUI" remote="github" revision="cm-11.0" />
+  <project name="android_packages_apps_InCallUI" path="packages/apps/InCallUI" remote="cr" revision="cm-11.0" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
-  <project name="cristianomatos/android_packages_apps_Mms" path="packages/apps/Mms" remote="github" revision="cm-11.0" />
+  <project name="android_packages_apps_Mms" path="packages/apps/Mms" remote="cr" revision="cm-11.0" />
   <project path="packages/apps/MonthCalendarWidget" name="shamukillaz/MonthCalendarWidget" remote="github" revision="kk" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project name="shamukillaz/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="orca5" />
+  <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="dg" revision="orca5" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/ScreenRecorder" name="cristianomatos/android_packages_apps_ScreenRecorder" remote="github" revision="cm-11.0" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
@@ -415,7 +430,7 @@
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" />
-  <project name="cristianomatos/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="github" revision="cm-11.0" />
+  <project name="android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="cr" revision="cm-11.0" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" />
@@ -423,7 +438,7 @@
   <project path="packages/screensavers/Basic" name="CyanogenMod/android_packages_screensavers_Basic" />
   <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" />
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" />
-  <project name="cristianomatos/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="cm-11.0" />
+  <project name="android_packages_services_Telephony" path="packages/services/Telephony" remote="cr" revision="cm-11.0" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="CyanogenMod/android_packages_wallpapers_HoloSpiral" />
@@ -498,6 +513,6 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project name="shamukillaz/android_vendor_cm" path="vendor/cm" remote="github" revision="orca5" />
+  <project name="android_vendor_cm" path="vendor/cm" remote="dg" revision="orca5" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
 </manifest>
